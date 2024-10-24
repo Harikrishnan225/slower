@@ -1,0 +1,26 @@
+.headingName {
+    font-size: 3rem;
+    width: 95%;
+    line-height: 1.5;
+}
+
+.subHeadingName {
+    width: 94%;
+    word-spacing: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .supplyLocationImage {
+        width: 118%;
+        height: 107%;
+    }
+    .headingName{
+        text-align: -moz-center;
+        font-size: 28px;
+        width: 97%;
+    }
+    .subHeadingName{
+        text-align: center;
+        width: 97%;
+    }
+}

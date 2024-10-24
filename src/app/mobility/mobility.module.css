@@ -1,0 +1,28 @@
+.mobilityHeading {
+    font-size: 2rem;
+}
+.mobilitySubHeading {
+    width: 52%;
+}
+.mobilityBtnHeading {
+    height: 65%;
+}
+.mobilityBtn {
+    background: linear-gradient(94.23deg, #0098bf 0%, #15bb98 68.74%, #68d585 137.48%);
+    font-size: 19px;
+}
+
+@media screen and (max-width: 600px) {
+    .mobilityHeading {
+        font-size: 20px;
+    }
+    .mobilitySubHeading {
+        width: 100%;
+    }
+    .mobilityBtn {
+        width: 100%;
+    }
+    .mobilityBtnHeading {
+        height: 35%;
+    }
+}

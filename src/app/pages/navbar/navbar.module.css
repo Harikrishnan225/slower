@@ -1,0 +1,16 @@
+.navbarElements {
+    background-color: #b6e9c7;
+    border-radius: 30px;
+}
+.slowerBackground {
+    width: 100%;
+    height: 134%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .slowerBackground {
+        width: 100%;
+        height: 107%;
+    }    
+}

@@ -1,0 +1,33 @@
+.ecosystemHeading {
+    width: 35rem;
+    font-size: 36px;
+}
+
+.ecosystemHeading1 {
+    width: 68%;
+}
+
+.ecosystemHeading2 {
+    width: 74%;
+}
+
+.ecosystemImage {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .ecosystemHeading {
+        width: 22rem;
+        font-size: 20px;
+    }
+
+    .ecosystemHeading1 {
+        width: 99%;
+        font-size: 14px;
+    }
+    .ecosystemHeading2 {
+        width: 95%;
+        font-size: 14px;
+    }
+}
