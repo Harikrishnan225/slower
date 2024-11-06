@@ -1,0 +1,27 @@
+.ai_header {
+    font-size: 2rem;
+}
+.ai_subheading {
+    font-size: 18px;
+}
+.ai_downloadBtn {
+    background: linear-gradient(94.23deg, #0098bf 0%, #15bb98 68.74%, #68d585 137.48%);
+    font-size: 16px;
+    width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .ai_header {
+        width: 23rem;
+        font-size: 20px;
+    }
+    .ai_subheading {
+        font-size: 14px;
+    }
+    .fw-bolded {
+        font-weight: 590px;
+    }
+    .ai_downloadBtn {
+        width: 75% !important;
+    }
+}

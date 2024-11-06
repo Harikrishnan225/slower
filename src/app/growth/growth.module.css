@@ -1,0 +1,25 @@
+.growthContainer {
+    background-color: #f4f7fa;
+}
+.growthHeader {
+    font-size: 2rem;
+}
+
+.growthPoint {
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .growthHeader {
+        font-size: 19px;
+    }
+    .growthSubHeading {
+        font-size: 16px;
+    }
+    .growthPoint {
+        font-size: 20px;
+    }
+    .featureImage {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -7,8 +7,12 @@ const Ecosystem = () => {
   return (
     <div className="container m-auto">
       <div className="row mt-5">
-        <div className="col-md-6 col-12">
-          <Image src={ecosystem} alt="ecosystem" className={Style.ecosystemImage} />
+        <div className="col-md-6 col-12 d-none d-md-block">
+          <Image
+            src={ecosystem}
+            alt="ecosystem"
+            className={Style.ecosystemImage}
+          />
         </div>
         <div className="col-md-6 col-12 m-auto">
           <p className={`${Style.ecosystemHeading} fw-bold`}>
@@ -25,6 +29,13 @@ const Ecosystem = () => {
             provides peace of mind through a robust, risk-resistant supply
             chain, ensuring seamless operations.
           </p>
+        </div>
+        <div className="col-md-6 col-12 d-block d-md-none">
+          <Image
+            src={ecosystem}
+            alt="ecosystem"
+            className={Style.ecosystemImage}
+          />
         </div>
       </div>
     </div>

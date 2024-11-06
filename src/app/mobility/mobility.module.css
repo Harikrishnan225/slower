@@ -1,3 +1,6 @@
+.mobilityContainer {
+    background-color: #f4f7fa;
+}
 .mobilityHeading {
     font-size: 2rem;
 }
@@ -9,7 +12,15 @@
 }
 .mobilityBtn {
     background: linear-gradient(94.23deg, #0098bf 0%, #15bb98 68.74%, #68d585 137.48%);
-    font-size: 19px;
+    font-size: 16px;
+    width: 25%;
+}
+
+.vehicleBtn {
+    width: 235px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 0px 8px 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -17,10 +28,12 @@
         font-size: 20px;
     }
     .mobilitySubHeading {
-        width: 100%;
+        width: 81%;
+        text-align-last: center;
+        font-size: 14px;
     }
     .mobilityBtn {
-        width: 100%;
+        width: 82%;
     }
     .mobilityBtnHeading {
         height: 35%;

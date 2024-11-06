@@ -1,0 +1,22 @@
+.footerContainer {
+    background: linear-gradient(94.23deg, #0098bf 0%, #15bb98 68.74%, #68d585 137.48%);
+}
+.footerHeader {
+    font-size: 2rem;
+}
+.footerSubHeading {
+    width: 39%;
+}
+
+@media screen and (max-width: 680px) {
+    .footerHeader {
+        font-size: 18px;
+    }
+    .footerCenterImage {
+        width: 100%;
+        height: 100%;
+    }
+    .footerSubHeading {
+        width: 100%;
+    }
+}
