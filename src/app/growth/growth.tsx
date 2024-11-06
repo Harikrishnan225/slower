@@ -28,7 +28,7 @@ const Growth = () => {
           />
         </div>
         {/* first heading */}
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-4">
           <ol>
             <li className={`${Style.growthPoint} fw-bold`}>
               Integrated Manufacturing
